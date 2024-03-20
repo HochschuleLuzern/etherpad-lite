@@ -27,8 +27,7 @@ EOF
 fi
 
 # Prepare the environment
-bin/installDeps.sh "$@" || exit 1
-
+# bin/installDeps.sh "$@" || exit 1
 
 ## Create the admin ui
 if [ -z "$NODE_ENV" ] || [ "$NODE_ENV" = "development" ]; then
